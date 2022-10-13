@@ -1,0 +1,34 @@
+myspell-fa (0.20070816-3.1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * Set the Maintainer control field to the person listed in the Uploaders
+    field who did most of the recent uploads: the team mailing list
+    is deprecated (Closes: #899616).
+
+ -- intrigeri <intrigeri@debian.org>  Tue, 30 Oct 2018 18:33:51 +0000
+
+myspell-fa (0.20070816-3) unstable; urgency=low
+
+  * Switch to dpkg-source 3.0 (quilt) format
+  * Rebuild to remove update-openoffice-dicts from myspell-he maintainer
+    scripts (Closes: #629084)
+
+ -- Lior Kaplan <kaplan@debian.org>  Thu, 09 Jun 2011 19:58:48 +0300
+
+myspell-fa (0.20070816-2) unstable; urgency=low
+
+  * Move dict into /usr/share/hunspell and add compatibility symlinks
+     from /usr/share/myspell/dicts (closes: #541902)
+  * debian/control:
+    - bump standards version to 3.8.3, no extra change is needed
+    - move Homepage tag to the proper location
+  * Merge with the previous unreleased changelog entry
+
+ -- Alan Baghumian <alan@technotux.org>  Wed, 23 Sep 2009 22:14:36 -0700
+
+myspell-fa (0.20070816-1) unstable; urgency=low
+
+  * Initial Release (Closes: #438596).
+
+ -- Alan Baghumian <alan@technotux.org>  Sat, 18 Aug 2007 08:31:45 +0330
+
